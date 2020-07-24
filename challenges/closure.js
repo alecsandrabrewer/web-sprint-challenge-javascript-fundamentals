@@ -29,9 +29,9 @@ count = 0
 
 function summation (a){
 
-  // let increment = count++;
-
-  for(let i=0; i <= a ; i++)
-    return count++
+  for(let i=1; i <= a ; i++){
+    count += i;
+  }
+    return count;
 }
 console.log(summation(4));
