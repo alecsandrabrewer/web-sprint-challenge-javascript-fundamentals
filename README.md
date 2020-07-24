@@ -26,6 +26,7 @@ Commit your code regularly and meaningfully. This helps both you (in case you ev
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. You might prepare by writing down your own answers before hand.
 
 1. Briefly compare and contrast `.forEach` & `.map` (2-3 sentences max)
+.forEach and .map both loop through every single item in the array and performs a task given. However with the .map, it automatically creates a copy of the array so that the original information does not get altered
 
 2. Explain the difference between a callback and a higher order function.
 
