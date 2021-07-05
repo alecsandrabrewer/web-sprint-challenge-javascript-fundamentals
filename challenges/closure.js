@@ -18,7 +18,20 @@ myFunction();
 
 // Explanation: 
 
+/* They are both under the function scope of myFunction, therefore nestedFunction can access the previous variables given within that same scope */
+
 
 /* Task 2: Counter */
 
 /* Create a function called `summation` that accepts a parameter and uses a counter to return the summation of that number. For example, `summation(4)` should return 10 because 1+2+3+4 is 10. */
+
+count = 0
+
+function summation (a){
+
+  for(let i=1; i <= a ; i++){
+    count += i;
+  }
+    return count;
+}
+console.log(summation(4));
